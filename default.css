@@ -3,14 +3,14 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background: #F0F3F4; /* Светлый фон для контраста */
-    font-family: 'Arial', sans-serif; /* Изменен шрифт */
-    font-size: 16px; /* Увеличен размер шрифта для лучшей читабельности */
-    color: #2C3E50; /* Темный цвет текста для лучшей читабельности */
+    background: #F0F3F4; 
+    font-family: 'Arial', sans-serif;
+    font-size: 16px; 
+    color: #2C3E50; 
 }
 
 #item-0, #item-1, #item-2, #item-3 {
-    border-radius: 15px; /* Увеличенные закругления */
+    border-radius: 15px; 
     padding: 20px;
     min-height: 300px;
     min-width: 150px;
@@ -18,9 +18,9 @@ html, body {
 
 /* Ограничение ширины контейнеров */
 .container {
-    max-width: 90%; /* Ширина страницы */
-    margin: 0 auto; /* Центрирование страницы */
-    padding: 0 15px; /* Отступы от краев */
+    max-width: 90%;
+    margin: 0 auto; 
+    padding: 0 15px; 
 }
 
 /* Выровнять текст и элементы по центру */
@@ -28,104 +28,104 @@ html, body {
     text-align: center;
 }
 
-/* Для колонок */
+
 .columns {
     display: flex;
-    flex-wrap: wrap; /* Позволяет переносить элементы на следующую строку */
-    justify-content: space-around; /* Распределяет элементы по строке */
-    gap: 30px; /* Увеличено расстояние между элементами */
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    gap: 30px; 
 }
 
 .column {
-    flex: 1; /* Устанавливаем размер относительно ширины окна */
-    min-width: 280px; /* Минимальная ширина колонки */
-    margin-bottom: 40px; /* Отступ снизу для пространства между строками */
+    flex: 1;
+    min-width: 280px; 
+    margin-bottom: 40px; 
 }
 
 /* Основной контент */
 #page {
     display: flex; /* Используем Flexbox для основного контента */
-    flex-wrap: wrap; /* Позволяем перенос элементов */
-    padding: 40px; /* Увеличен отступ */
-    justify-content: space-between; /* Распределение содержимого внутри бокса */
+    flex-wrap: wrap; 
+    padding: 40px;
+    justify-content: space-between; 
     flex-direction: column;
 }
 
 .box {
-    height: 100%; /* Убираем фиксированную высоту */
-    padding: 30px; /* Увеличены отступы */
-    border: 2px solid #3498DB; /* Яркая граница для видимости */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Более заметная тень */
-    border-radius: 15px; /* Увеличенные закругления */
-    background-color: #FFFFFF; /* Белый цвет фона для контраста */
+    height: 100%;
+    padding: 30px;
+    border: 2px solid #3498DB; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; 
+    background-color: #FFFFFF; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Распределение содержимого внутри бокса */
-    text-align: center; /* Центрируем текст */
-    overflow: hidden; /* Скрывает текст, который выходит за границы */
+    justify-content: space-between; 
+    text-align: center; 
+    overflow: hidden; 
 }
 
-/* Ограничиваем ширину изображений */
+
 .column img {
     width: 100%;
     height: auto;
-    border-radius: 10px; /* Мягкие углы для изображений */
+    border-radius: 10px; 
 }
 
 h1, h2, h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-weight: 600; /* Увеличенный вес шрифта для заголовков */
-    color: #2980B9; /* Новый цвет для заголовков */
+    font-weight: 600;
+    color: #2980B9; 
 }
 
 h2 {
-    padding: 0 0 20px 0; /* Уменьшен отступ снизу */
-    font-size: 2.5em; /* Увеличен размер заголовка */
+    padding: 0 0 20px 0; 
+    font-size: 2.5em; 
 }
 
 /* Стили для хедера и логотипа */
 #header-content {
     display: flex;
-    justify-content: space-between; /* Размещает элементы по краям */
-    align-items: center; /* Выравнивание по вертикали */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 20px;
 }
 
 #logo {
     display: flex;
-    align-items: center; /* Выравнивание логотипа по центру */
+    align-items: center; 
 }
 
 #logo h1 {
-    font-family: 'Arial', sans-serif; /* Изменен шрифт логотипа */
-    font-weight: 700; /* Жирный шрифт для выделения */
-    font-size: 3.5em; /* Увеличенный размер шрифта */
-    color: #34495E; /* Более темный цвет для контраста */
+    font-family: 'Arial', sans-serif; 
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #34495E; 
     margin: 0;
     padding: 0;
-    text-transform: uppercase; /* Превращаем текст в заглавные буквы для современного стиля */
-    letter-spacing: 3px; /* Увеличиваем межбуквенное расстояние для более минималистичного вида */
-    transition: color 0.3s ease; /* Добавляем плавный переход цвета при наведении */
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    transition: color 0.3s ease;
 }
 
 #logo h1:hover {
-    color: #2C3E50; /* Изменение цвета при наведении для эффекта взаимодействия */
+    color: #2C3E50; 
 }
 
 /* Контейнер обертка */
 #wrapper {
-    background: #F0F3F4; /* Светлый фон */
+    background: #F0F3F4; 
     margin: 20px auto;
-    max-width: 1200px; /* Ограничена максимальная ширина */
+    max-width: 1200px; 
 }
 
 /* Стили для меню */
 #menu {
-    background: #2980B9; /* Новый цвет фона для меню */
-    border-radius: 10px; /* Закругленные углы меню */
-    overflow: hidden; /* Скрывает лишние части */
+    background: #2980B9; 
+    border-radius: 10px; 
+    overflow: hidden; 
 }
 
 #menu ul {
@@ -144,23 +144,23 @@ h2 {
     padding: 15px;
     text-decoration: none;
     text-align: center;
-    color: #FFFFFF; /* Новый цвет для текста меню */
-    transition: background 0.3s; /* Плавный переход цвета при наведении */
+    color: #FFFFFF; 
+    transition: background 0.3s; 
 }
 
 #menu a:hover {
-    background: #3498DB; /* Новый цвет фона при наведении */
+    background: #3498DB; 
 }
 
 /* Основной контент и боковые панели */
 #content {
-    flex: 3; /* Основной контент занимает 3/5 ширины */
+    flex: 3;
     padding-right: 20px;
-    border-right: 1px solid #BDC3C7; /* Мягкая граница */
+    border-right: 1px solid #BDC3C7; 
 }
 
 #sidebar1, #sidebar2 {
-    flex: 1; /* Боковые панели занимают 1/5 ширины */
+    flex: 1;
     padding: 20px;
 }
 
@@ -168,7 +168,7 @@ h2 {
 .angry-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px; /* Увеличено расстояние между элементами */
+    gap: 20px; 
     margin-top: 20px;
 }
 
@@ -179,24 +179,24 @@ h2 {
 
 .image img {
     width: 100%;
-    height: auto; /* Адаптивная высота для изображений */
+    height: auto; 
     display: block;
 }
 
-/* Стили для подвала */
+
 #footer {
     text-align: center;
     padding: 40px 0 20px;
-    background: #34495E; /* Новый цвет фона для подвала */
-    color: #ECF0F1; /* Светлый цвет текста для контраста */
+    background: #34495E; 
+    color: #ECF0F1; 
 }
 
 #footer p {
-    margin: 0; /* Убираем отступы */
+    margin: 0; 
 }
 
 #footer a {
-    color: #ECF0F1; /* Цвет ссылок в подвале */
+    color: #ECF0F1; 
 }
 
 /* Стили для контактов */
@@ -213,7 +213,7 @@ ul.contact li {
 
 ul.contact li a {
     text-decoration: none;
-    color: #ECF0F1; /* Цвет ссылок */
+    color: #ECF0F1; 
 }
 
 /* Общие стили для кнопок */
@@ -221,19 +221,19 @@ ul.contact li a {
     display: inline-block;
     margin-top: 2em;
     padding: 10px 20px;
-    background: #3498DB; /* Новый цвет для кнопок */
+    background: #3498DB; 
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #FFFFFF; /* Светлый цвет текста для кнопок */
-    transition: background 0.3s; /* Плавный переход фона при наведении */
+    color: #FFFFFF;
+    transition: background 0.3s; 
 }
 
 .button:hover {
-    background: #2980B9; /* Цвет кнопки при наведении */
+    background: #2980B9;
 }
 
-/* Отступы для элементов списка */
+
 ul.style1, ul.style2, ul.style3 {
     margin: 0;
     padding: 0;
@@ -242,7 +242,7 @@ ul.style1, ul.style2, ul.style3 {
 
 ul.style1 li, ul.style2 li, ul.style3 li {
     padding: 10px 0;
-    border-top: 1px solid #BDC3C7; /* Мягкая граница */
+    border-top: 1px solid #BDC3C7;
 }
 
 ul.style2 li {
@@ -256,19 +256,19 @@ ul.style3 img {
 
 /* Стили для элементов */
 #item-0 {
-    background: #F9E79F; /* Нежный цвет для первого элемента */
+    background: #F9E79F; 
 }
 
 #item-1 {
-    background: #F1948A; /* Нежный цвет для второго элемента */
+    background: #F1948A; 
 }
 
 #item-2 {
-    background: #A9DFBF; /* Нежный цвет для третьего элемента */
+    background: #A9DFBF; 
 }
 
 #item-3 {
-    background: #85C1AE; /* Нежный цвет для четвертого элемента */
+    background: #85C1AE; 
 }
 
 /* Мобильные стили */
